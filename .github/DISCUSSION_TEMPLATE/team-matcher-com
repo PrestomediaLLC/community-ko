@@ -1,0 +1,26 @@
+title: "[team-matcher-com] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        환영합니다! **team-matcher-com**에 대한 질문, 기능 요청, 피드백은 이 양식을 사용해 주세요. 개인정보는 공유하지 마세요.
+  - type: dropdown
+    id: topic-type
+    attributes:
+      label: "어떤 작업을 하시겠습니까?"
+      options:
+        - "일반적인 질문하기"
+        - "문제 / 버그 도움받기"
+        - "새로운 기능 또는 개선사항 제안"
+        - "기타 / 일반 피드백"
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: 메시지 내용
+      description: 질문, 문제, 아이디어를 자세히 적어주세요.
+      placeholder: 여기에 메시지를 작성하세요...
+    validations:
+      required: true
