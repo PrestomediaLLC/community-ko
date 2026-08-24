@@ -1,10 +1,10 @@
-title: "[free-text-editor-com] "
+title: "[free-text-editor.com] "
 labels: []
 body:
   - type: markdown
     attributes:
       value: |
-        환영합니다! **free-text-editor-com**에 대한 질문, 기능 요청, 피드백은 이 양식을 사용해 주세요. 개인정보는 공유하지 마세요.
+        환영합니다! **free-text-editor.com**에 대한 질문, 기능 요청, 피드백은 이 양식을 사용해 주세요. 개인정보는 공유하지 마세요.
   - type: dropdown
     id: topic-type
     attributes:
